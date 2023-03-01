@@ -58,3 +58,9 @@ switch ($route) {
 
 
 
+
+$post = new Post(1, new \GeekBrains\LevelTwo\Person\Person(
+        new Name('Иван', 'Никитин'),
+        new DateTimeImmutable() ),
+        'Всем привет!');
+print $post;    
